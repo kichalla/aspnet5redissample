@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25029.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F7043C5-77E6-4DD2-935D-A9F31F509E61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC1A2F90-E80B-45C0-928D-811B22C2AC5A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetRedisSample", "src\AspNetRedisSample\AspNetRedisSample.xproj", "{4FB9A813-95F3-40B4-BF9A-90C323D44AC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB9A813-95F3-40B4-BF9A-90C323D44AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB9A813-95F3-40B4-BF9A-90C323D44AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB9A813-95F3-40B4-BF9A-90C323D44AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB9A813-95F3-40B4-BF9A-90C323D44AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FB9A813-95F3-40B4-BF9A-90C323D44AC6} = {4F7043C5-77E6-4DD2-935D-A9F31F509E61}
+	EndGlobalSection
+EndGlobal
