@@ -6,29 +6,22 @@
   },
 
   "dependencies": {
-    "Microsoft.AspNetCore.HttpOverrides": "1.0.0-rc2-20094",
-    "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-20094",
-    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-20094",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-20094",
-    "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc2-20094",
-    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-20094",
-    "Microsoft.Extensions.Logging": "1.0.0-rc2-20094",
-    "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-20094",
-    "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-20094",
-    "NETStandard.Library": "1.0.0-rc2-23826"
+    "Microsoft.AspNetCore.HttpOverrides": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-*",
+    "Microsoft.Extensions.Logging": "1.0.0-rc2-*",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-*",
+    "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-*",
+    "Microsoft.Extensions.Caching.Redis": "1.0.0-rc2-*"
   },
 
   "frameworks": {
-    "netstandardapp1.5": {
-      "imports": [
-        "dnxcore50",
-        "portable-net45+win8"
-      ]
-    }
+    "net451": { }
   },
 
   "tools": {
-    "dotnet-publish-iis": "1.0.0-rc2-20094"
+    "dotnet-publish-iis": "1.0.0-rc2-*"
   },
 
   "content": [
