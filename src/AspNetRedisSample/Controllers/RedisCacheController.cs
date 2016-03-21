@@ -14,14 +14,14 @@ namespace AspNetRedisSample.Controllers
             _redisCache = redisCache;
         }
 
-        [HttpGet("api/rediscache/set/{key}/{value}")]
+        [HttpGet("api/rediscache/set/{key}/{value}", Name = "SetRedisValue")]
         public async Task<IActionResult> SetValue(string key, string value)
         {
             await _redisCache.SetAsync(key, Encoding.UTF8.GetBytes(value));
             return Content($"Successfully set the value for key '{key}' in redis cache.");
         }
 
-        [HttpGet("api/rediscache/get/{key}")]
+        [HttpGet("api/rediscache/get/{key}", Name = "GetRedisValue")]
         public async Task<IActionResult> GetValue(string key)
         {
             var valueInBytes = await _redisCache.GetAsync(key);
